@@ -6,6 +6,8 @@ The word list comes from `/usr/share/dict/words` (`words` package in Arch). This
 
 Do note that the words list contains tons of words that are not valid inside the Spelling Bee, so the solution list will also contain invalid words. I just try all of them and see which works, but there is probably a better way to do that.
 
+`oneliner.py` shows how the solution could be computed in one single expression, just for fun.
+
 ## How to use
 
-Change the two first variables (`CENTER` and `LETTERS`) to the letters in the game.
+Change the two first variables in `main.py` (`CENTER` and `LETTERS`) to the letters in the game.
